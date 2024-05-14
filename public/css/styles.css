@@ -1,374 +1,376 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
 
-.material-symbols-rounded {
-    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-  }
+@media only screen and (min-device-width: 960px)
+{
+    .material-symbols-rounded {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+      
+    .noto-sans-Noto style {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .badge {
+        position: relative;
+        top: -2px;
+        background-color: #000000;
+        color: white;
+        border-radius: 50%;
+        padding: 5px 8px;
+        font-size: 12px;
+      }
   
-.noto-sans-Noto style {
-    font-family: "Noto Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.badge {
-    position: relative;
-    top: -2px;
-    background-color: #000000;
-    color: white;
-    border-radius: 50%;
-    padding: 5px 8px;
-    font-size: 12px;
-  }
-  
-.container {
-    width: auto;
-}
-  
-h1 {
-    text-align: center;
-    color: #cccccc5d;
-}  
-
-/*comienza del index*/
-.container {
-    width: auto;
-}
-  
-h1 {
-    text-align: center;
-    color: #cccccc5d;
-}
-  
-.centro-index {
-    margin: 5% 10% 0 10%;
-}
-
-/*comienza el registro*/
-.registro-container{
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #cccccc5d;
-    border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-}
-
-.form-grupo{
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    flex-direction: column;
-}
-
-.registro-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-  
-.form-grupo {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    flex-direction: column;
-}
-
-.form-grupo label {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    flex-direction: column;
-}
-
-.form-grupo input {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    flex-direction: column;
-}
-
-
-.form-grupo button {
-    color: white;
-    background-color: #ff0000;
-    border-radius: 20px;
-    align-self: center;
-}
-
-.form-grupo button:hover {
-    background-color: #ff0000;
-}
-
-/*comienzao de login*/
-.login-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #cccccc5d;
-    border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-}
-
-.title {
-    font-size: 25px;
-    text-align: center;
-}
-  
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-  
-.form-container {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    flex-direction: column;
-}
-
-.form-container button {
-    color: white;
-    background-color: #ff0000;
-    border-radius: 20px;
-    align-self: center;
-}
-
-.form-container button:hover {
-    background-color: #ff0000;
-}
-  
-#mostrarContrasena {
-    width: 80px;
-    align-self: flex-end;
-}
-  
-.form-label {
-    font-size: 16px;
-    margin: 10px 0;
-}
-  
-.form-input {
-    width: 100%;
-    padding: 8px;
-    font-size: 16px;
-    border: 2px solid rgb(238, 255, 0);
-    border-radius: 20px;
-    align-self: center;
-}
-  
-.form-input input:hover, .form-input input:focus, 
-.form-input input:active, .form-input input:focus-visible {
-    border: 1px solid #ff0000;
-    outline-width: 1px;
-    outline-style: solid;
-    outline-color: #ff0000;
-}
-  
-.show-password-label {
-    font-size: 10px;
-}
-  
-.submit-button {
-    padding: 10px;
-    font-size: 16px;
-    background-color: rgb(238, 255, 0);
-    color: #cccccc5d;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    margin: 20px;
-    width: 100%;
-}
-
-.submit-button:hover {
-    background-color: #ff0000;
-}
-  
-.register-link {
-    margin-top: 10px;
-    text-align: center;
-}
-
-/*trasformadores de imagenes*/
-
-.centro-jpeg {
-    background-color: rgb(116, 116, 255);
-    margin: 5% 10% 0 10%;
-}
-.centro-jpeg h1{
-    text-align: center;
-    color: gray;
-}
-.centro-jpeg-2 {
-    border: 5px dashed gray;
-    height: 500px;
-    width: 700px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5% 10% 0 10%;
-}
-.centro-jpeg-2 h2{
-    font-size: 30px;
-    font-weight: 500px;
-    color: black;
-}
-.centro-jpeg-2 button{
-    padding: 14px 25px;
-    font-size: 20px;
-    outline: none;
-    background-color: red;
-    color: greenyellow;
-    border-radius: 5px;
-    cursor: pointer; 
-}
-
-.centro-jpg {
-    background-color: rgb(116, 116, 255);
-    margin: 5% 10% 0 10%;
-}
-.centro-jpg h1{
-    text-align: center;
-    color: gray;
-}
-.centro-jpg-2 {
-    border: 5px dashed gray;
-    height: 500px;
-    width: 700px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5% 10% 0 10%;
-}
-.centro-jpg-2 h2{
-    font-size: 30px;
-    font-weight: 500px;
-    color: black;
-}
-.centro-jpg-2 button{
-    padding: 14px 25px;
-    font-size: 20px;
-    outline: none;
-    background-color: red;
-    color: greenyellow;
-    border-radius: 5px;
-    cursor: pointer; 
-}
-
-.centro-png {
-    background-color: rgb(116, 116, 255);
-    margin: 5% 10% 0 10%;
-}
-.centro-png h1{
-    text-align: center;
-    color: gray;
-}
-.centro-png-2 {
-    border: 5px dashed gray;
-    height: 500px;
-    width: 700px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5% 10% 0 10%;
-}
-.centro-png-2 h2{
-    font-size: 30px;
-    font-weight: 500px;
-    color: black;
-}
-.centro-png-2 button{
-    padding: 14px 25px;
-    font-size: 20px;
-    outline: none;
-    background-color: red;
-    color: greenyellow;
-    border-radius: 5px;
-    cursor: pointer; 
-}
-
-.centro-svg {
-    background-color: rgb(116, 116, 255);
-    margin: 5% 10% 0 10%;
-}
-.centro-svg h1{
-    text-align: center;
-    color: gray;
-}
-.centro-svg-2 {
-    border: 5px dashed gray;
-    height: 500px;
-    width: 700px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5% 10% 0 10%;
-}
-.centro-svg-2 h2{
-    font-size: 30px;
-    font-weight: 500px;
-    color: black;
-}
-.centro-svg-2 button{
-    padding: 14px 25px;
-    font-size: 20px;
-    outline: none;
-    background-color: red;
-    color: greenyellow;
-    border-radius: 5px;
-    cursor: pointer; 
-}
-
-.centro-webp {
-    background-color: rgb(116, 116, 255);
-    margin: 5% 10% 0 10%;
-}
-.centro-webp h1{
-    text-align: center;
-    color: gray;
-}
-.centro-webp-2 {
-    border: 5px dashed gray;
-    height: 500px;
-    width: 700px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 5% 10% 0 10%;
-}
-.centro-wehp-2 h2{
-    font-size: 30px;
-    font-weight: 500px;
-    color: black;
-}
-.centro-wehp-2 button{
-    padding: 14px 25px;
-    font-size: 20px;
-    outline: none;
-    background-color: red;
-    color: greenyellow;
-    border-radius: 5px;
-    cursor: pointer; 
-}
-
+    .container {
+        width: auto;
+    }
+      
+    h1 {
+        text-align: center;
+        color: #cccccc5d;
+    }  
+    
+    /*comienza del index*/
+    .container {
+        width: auto;
+    }
+      
+    h1 {
+        text-align: center;
+        color: #cccccc5d;
+    }
+      
+    .centro-index {
+        margin: 5% 10% 0 10%;
+    }
+    
+    /*comienza el registro*/
+    .registro-container{
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #cccccc5d;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    
+    .form-grupo{
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .registro-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .form-grupo {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .form-grupo label {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .form-grupo input {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    
+    .form-grupo button {
+        color: white;
+        background-color: #ff0000;
+        border-radius: 20px;
+        align-self: center;
+    }
+    
+    .form-grupo button:hover {
+        background-color: #ff0000;
+    }
+    
+    /*comienzao de login*/
+    .login-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #cccccc5d;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+    }
+    
+    .title {
+        font-size: 25px;
+        text-align: center;
+    }
+      
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+    .form-container {
+        display: flex;
+        justify-content: start;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .form-container button {
+        color: white;
+        background-color: #ff0000;
+        border-radius: 20px;
+        align-self: center;
+    }
+    
+    .form-container button:hover {
+        background-color: #ff0000;
+    }
+      
+    #mostrarContrasena {
+        width: 80px;
+        align-self: flex-end;
+    }
+      
+    .form-label {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+      
+    .form-input {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        border: 2px solid rgb(238, 255, 0);
+        border-radius: 20px;
+        align-self: center;
+    }
+      
+    .form-input input:hover, .form-input input:focus, 
+    .form-input input:active, .form-input input:focus-visible {
+        border: 1px solid #ff0000;
+        outline-width: 1px;
+        outline-style: solid;
+        outline-color: #ff0000;
+    }
+      
+    .show-password-label {
+        font-size: 10px;
+    }
+      
+    .submit-button {
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgb(238, 255, 0);
+        color: #cccccc5d;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 20px;
+        width: 100%;
+    }
+    
+    .submit-button:hover {
+        background-color: #ff0000;
+    }
+      
+    .register-link {
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /*trasformadores de imagenes*/
+    
+    .centro-jpeg {
+        background-color: rgb(116, 116, 255);
+        margin: 5% 10% 0 10%;
+    }
+    .centro-jpeg h1{
+        text-align: center;
+        color: gray;
+    }
+    .centro-jpeg-2 {
+        border: 5px dashed gray;
+        height: 500px;
+        width: 700px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5% 10% 0 10%;
+    }
+    .centro-jpeg-2 h2{
+        font-size: 30px;
+        font-weight: 500px;
+        color: black;
+    }
+    .centro-jpeg-2 button{
+        padding: 14px 25px;
+        font-size: 20px;
+        outline: none;
+        background-color: red;
+        color: greenyellow;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .centro-jpg {
+        background-color: rgb(116, 116, 255);
+        margin: 5% 10% 0 10%;
+    }
+    .centro-jpg h1{
+        text-align: center;
+        color: gray;
+    }
+    .centro-jpg-2 {
+        border: 5px dashed gray;
+        height: 500px;
+        width: 700px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5% 10% 0 10%;
+    }
+    .centro-jpg-2 h2{
+        font-size: 30px;
+        font-weight: 500px;
+        color: black;
+    }
+    .centro-jpg-2 button{
+        padding: 14px 25px;
+        font-size: 20px;
+        outline: none;
+        background-color: red;
+        color: greenyellow;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .centro-png {
+        background-color: rgb(116, 116, 255);
+        margin: 5% 10% 0 10%;
+    }
+    .centro-png h1{
+        text-align: center;
+        color: gray;
+    }
+    .centro-png-2 {
+        border: 5px dashed gray;
+        height: 500px;
+        width: 700px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5% 10% 0 10%;
+    }
+    .centro-png-2 h2{
+        font-size: 30px;
+        font-weight: 500px;
+        color: black;
+    }
+    .centro-png-2 button{
+        padding: 14px 25px;
+        font-size: 20px;
+        outline: none;
+        background-color: red;
+        color: greenyellow;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .centro-svg {
+        background-color: rgb(116, 116, 255);
+        margin: 5% 10% 0 10%;
+    }
+    .centro-svg h1{
+        text-align: center;
+        color: gray;
+    }
+    .centro-svg-2 {
+        border: 5px dashed gray;
+        height: 500px;
+        width: 700px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5% 10% 0 10%;
+    }
+    .centro-svg-2 h2{
+        font-size: 30px;
+        font-weight: 500px;
+        color: black;
+    }
+    .centro-svg-2 button{
+        padding: 14px 25px;
+        font-size: 20px;
+        outline: none;
+        background-color: red;
+        color: greenyellow;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+    
+    .centro-webp {
+        background-color: rgb(116, 116, 255);
+        margin: 5% 10% 0 10%;
+    }
+    .centro-webp h1{
+        text-align: center;
+        color: gray;
+    }
+    .centro-webp-2 {
+        border: 5px dashed gray;
+        height: 500px;
+        width: 700px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 5% 10% 0 10%;
+    }
+    .centro-wehp-2 h2{
+        font-size: 30px;
+        font-weight: 500px;
+        color: black;
+    }
+    .centro-wehp-2 button{
+        padding: 14px 25px;
+        font-size: 20px;
+        outline: none;
+        background-color: red;
+        color: greenyellow;
+        border-radius: 5px;
+        cursor: pointer; 
+    }
+}    
 /*# sourceMappingURL=styles.css.map */
