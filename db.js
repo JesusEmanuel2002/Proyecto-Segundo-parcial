@@ -1,9 +1,7 @@
 const sqlite3 = require('sqlite3').verbose();
 
-// Crear conexión a la base de datos
 const db = new sqlite3.Database('database.sqlite');
 
-// Crear tabla de usuarios si no existe
 db.serialize(() => {
     db.run(`CREATE TABLE IF NOT EXISTS usuarios (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -13,7 +11,6 @@ db.serialize(() => {
   )`);
 });
 
-// Función para insertar un nuevo usuario en la base de datos
 function registrarUsuario(nombre, email, password) {
     return new Promise((resolve, reject) => {
         const stmt = db.prepare('INSERT INTO usuarios (nombre, email, password) VALUES (?, ?, ?)');
@@ -42,7 +39,6 @@ function obtenerUsuarioPorNombre(nombre, callback) {
     });
 }
 
-// Función para obtener un usuario por su ID
 function getUserById(id, callback) {
     db.get('SELECT * FROM usuarios WHERE id = ?', [id], (err, row) => {
         if (err) {
